@@ -7,7 +7,14 @@ def second_challenge
   }
 
   #code your solution here!
-
+  shopping_list = groceries.values 
   
-
+  return shopping_list.flatten
+  
 end
+
+
+    #data.each do |attribute, value|
+      #if attribute == :favorite_icecream_flavors
+       # value.each do |flavor|
+        #  value.delete_if {|flavor| flavor == "strawberry"}
